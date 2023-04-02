@@ -112,6 +112,7 @@ class BankTasks{
         }
             
     }
+    //Withdrawal of money
     public void withdraw(){
         Scanner input=new Scanner(System.in);
         System.out.print("\nEnter User's account number: ");
@@ -140,6 +141,7 @@ class BankTasks{
             return;
         }
     }
+    //Printing the Customer details
     public void print()
 	{
 		for(int i = 0; i<AI.size(); i++)
@@ -149,6 +151,7 @@ class BankTasks{
 			System.out.println("Balance: " + AI.get(i).getAmount() + "\n");
 		}
 	}
+    // Loading the data's in a file
     public void load()
 	{
 	 try{
